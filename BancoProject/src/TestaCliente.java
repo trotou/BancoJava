@@ -2,8 +2,7 @@
 public class TestaCliente {
 
 	public static void main(String[] args) {
-		Conta cliente = new Conta("Matheus", "1234");
-		cliente.getNome();
+		Cliente cliente = new Cliente("Matheus", "1234");
 		cliente.showMenu();
 
 	}
